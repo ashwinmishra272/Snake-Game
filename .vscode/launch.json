@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/ashwinmishra/Documents/snakeGame",
+      "program": "/Users/ashwinmishra/Documents/snakeGame/build/Debug/outDebug"
+    }
+  ]
+}
