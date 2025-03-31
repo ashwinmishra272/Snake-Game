@@ -12,10 +12,12 @@ public:
 
     const std::vector<std::pair<int, int>>& getBody() const;
     
-    void move(Direction dir); 
-
+    void move(Direction dir);
+    
 private:
     std::vector<std::pair<int, int>> body;
+    Direction currentDirection; // Store last move direction
+    bool isOpposite(Direction newDir) const;
 };
 
-#endif
+#endif // SNAKE_HPP

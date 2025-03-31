@@ -15,6 +15,9 @@ int main() {
     snake.move(Direction::RIGHT);
     printSnake(snake);
 
+    snake.move(Direction::LEFT);  // Should be ignored
+    printSnake(snake);
+
     snake.move(Direction::UP);
     printSnake(snake);
 
